@@ -1,0 +1,46 @@
+/*
+  1. Universal Reset
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+  2. Body/Base Styles: Centering and Purple Background
+*/
+body {
+    /* --- Background Color: A shade of purple --- */
+    background-color: #800080; /* A classic deep purple (or use #dda0dd for a lighter lavender) */
+
+    /* --- Text Centering --- */
+    text-align: center;       /* Centers all text and inline elements horizontally */
+
+    /* Basic Readability Styles */
+    color: #fff;              /* Changed text color to white for better contrast against the dark purple */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/*
+  3. Optional: Centering a Block Element (like a main container)
+*/
+.container {
+    width: 80%; /* Set a width less than 100% */
+    margin: 0 auto; /* This centers the container block itself */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    color: #333; /* Resetting text color for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/*
+  4. Heading Styles
+*/
+h1 {
+    color: #fff; /* White title, keeping it visible on the body background */
+    margin-bottom: 15px;
+}
